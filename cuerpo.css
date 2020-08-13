@@ -1,0 +1,233 @@
+.caja{
+    background: white;
+    width:100%;
+    max-width: 1500px;
+    margin:auto;
+    overflow: hidden;
+    height:100%;
+}
+
+.cajaMenor{
+    width: 80%;
+    margin:auto;
+}
+
+/*Area botones*/
+
+.contenedorBotones{
+    text-align:center;
+    margin-top: 120px;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+.boton1{
+    float: left;
+}
+
+.botonCentro{
+    display: inline-block;
+}
+
+.boton3{
+    float:right;
+}
+
+.contenedorBotones div a{
+    text-decoration:none;
+    color: black;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/*Area de presentacion*/
+
+.presentacion{
+    margin:auto;
+    display:flex;
+    align-items: center;
+    width: 100%;
+}
+
+.presentacion div{
+    display: inline-block;
+}
+
+.presentacion h1{
+    font-family: Montserrat;
+    font-size: 36px;
+    margin-bottom: 120px;
+}
+
+.presentacion p{
+    font-family: Montserrat;
+    font-size: 30px;
+}
+
+.textoPresentacion1{
+    float:left;
+    margin:auto;
+}
+
+.textoPresentacion2{
+    float:right;
+    margin:auto;
+}
+
+.imagenBeaglePerfil{
+    background: url(Archivos/Body/BeagleBebePerfil.png) no-repeat center center;
+    height: 400px;
+    width: 400px;
+    background-size: 100%;
+    float: right;
+    margin:auto;
+}
+
+.imagenPerroComiendo{
+    background: url(Archivos/Body/PerroComiendo.jpg) center center;
+    height: 400px;
+    width: 400px;
+    background-size: 100% 100%;
+    margin:auto;
+}
+
+/*¿Que estas esperando?*/
+
+.queEsperas{
+    margin-top: 400px;
+    margin-bottom: 400px;
+}
+
+.textoQueEsperas{
+    text-align:center;
+    font-family: Montserrat;
+    font-size: 36px;
+}
+
+.botonAprendeAlgoNuevo{
+    background: url(Archivos/Body/boton/botonAprendeAlgoNuevo.png) center center;
+    height: 80px;
+    width: 400px;
+    background-size: 100% 100%;
+    margin:auto;
+}
+
+@media screen and (min-width:795px) and (max-width:1171px){
+
+    /*Botones*/
+
+    .contenedorBotones div{
+        display: inline-block;
+    }
+
+    .boton1{
+        float:left;
+    }
+
+    .botonCentro{
+        float:right;
+    }
+
+    .boton3{
+        float:none;
+    }
+
+    /*Presentacion*/
+
+    .presentacion{
+        text-align: center;
+    }
+
+    .imagenBeaglePerfil{
+        margin:0;
+    }
+
+    .textoPresentacion{
+        margin:auto;
+    }
+
+    .imagenBeaglePerfil{
+        height:0;
+        width: 0;
+        display:none;
+    }
+
+    .imagenBeaglePerfil2{
+        background: url(Archivos/Body/perroMirandoArriba3.jpg) center center;
+        height: 700px;
+        width: 100%;
+        background-size: 100% 100%;
+        display:none;
+        margin:0;
+    }
+    
+    .imagenPerroComiendo2{
+        background: url(Archivos/Body/PerroComiendo.jpg) center center;
+        height: 400px;
+        width:100%;
+        background-size: 100% 100%;
+        margin:0;
+    }
+
+    .imagenPerroComiendo{
+        height: 0;
+        width: 0;
+        display:none;
+        margin:0;
+    }
+
+    /*Footer*/
+
+
+}
+
+
+@media screen and (min-width:500px) and (max-width:794px){
+    .boton1, .botonCentro, .boton3{
+        float:none;
+    }
+
+    .presentacion{
+        text-align: center;
+    }
+
+    .imagenBeaglePerfil{
+        margin:0;
+    }
+
+    .textoPresentacion{
+        margin:auto;
+    }
+
+    .imagenBeaglePerfil{
+        height:0;
+        width: 0;
+        display:none;
+    }
+
+    .imagenBeaglePerfil2{
+        background: url(Archivos/Body/perroMirandoArriba3.jpg) center center;
+        height: 700px;
+        width: 100%;
+        background-size: 100% 100%;
+        display:none;
+        margin:0;
+    }
+    
+    .imagenPerroComiendo2{
+        background: url(Archivos/Body/PerroComiendo.jpg) center center;
+        height: 400px;
+        width:100%;
+        background-size: 100% 100%;
+        margin:0;
+    }
+
+    .imagenPerroComiendo{
+        height: 0;
+        width: 0;
+        display:none;
+        margin:0;
+    }
+
+}

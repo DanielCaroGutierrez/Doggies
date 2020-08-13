@@ -1,0 +1,55 @@
+
+.cajaMenorFooter{
+    width:80%;
+    margin:auto;
+    float:none; 
+}
+
+.lineaDivisora{
+    background: rgb(250, 205, 138);
+    width:100%;
+    height: 50px;
+}
+
+.contenedorInformacion{
+    background: rgb(194, 190, 190);
+    width:100%;
+    height: 270px;
+}
+
+.informacion{
+    height: 100%;
+}
+
+.informacion nav{
+    height: 100%;
+}
+
+.columna1{
+    float:left;
+    
+}
+
+.columna2{
+
+    float:right;    
+    
+
+    
+}
+
+.informacion nav a{
+    text-decoration:none;
+    color: black;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imagenPerros{
+    background: url(Archivos/Footer/HuskyFooter.png) no-repeat center;
+    width:100%;
+    height: 300px;
+    background-size:400px 100%;
+        
+}

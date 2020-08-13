@@ -1,0 +1,98 @@
+    .zonaBusqueda{
+        margin-top: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inputBusqueda{
+        margin-top: 4px;
+        font-family: Montserrat;
+        font-size: 30px;
+        border:none;
+        border-radius: 20px;
+    }
+
+    .filtrosContenedor{
+        background: url(Archivos/Razas/Botones/botonFiltros.png) no-repeat center center;
+        background-size: 100% 100%;
+        width: 160px;
+        height: 40px;
+        margin-left: 50px;
+    }
+
+    .lupa{
+        background: url(Archivos/Razas/iconfinder_search_126577.png) no-repeat center center;
+        background-size: 100% 100%;
+        width: 32px;
+        height: 32px;
+        float: right;
+        margin-top: 7px;
+        margin-bottom: 7px;
+        margin-right: 7px;
+    }
+
+    .zonaBusqueda div{
+        display: inline-block;
+    }
+
+    .barraBusqueda{
+        margin-top: 2px;
+        border: 4px solid black;
+        border-radius: 20px;
+        width: 30%;
+        height: 30%;
+    }
+
+    /*Cajas de razas*/
+    
+    .cajaRaza{
+        width: 85%;
+        margin: auto;
+        border:3px solid black;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .cajaRaza div{
+        display: inline-block;
+    }
+
+    .cajaMenorCajaRaza{
+        width: 80%;
+        margin: auto;
+    }
+
+    .contenedorRazasGigante{
+        display: inline-block;
+    }
+
+    .imagenPerro{
+        margin-top: 80px;
+        padding-left: 80px;
+        padding-top: 50px;
+        background: url(Archivos/Razas/perrito.jpg) no-repeat center center;
+        height: 200px;
+        width: 300px;
+        background-size: 100% 100%;
+        float: left;    
+ 
+    }
+
+    .textoRaza{ 
+        font-family: Montserrat;
+        margin-top: 40px;
+        border: 4px solid black;
+        width: 60%;
+        float: right;
+        border: 2px;
+        width:60%;
+        height: 60%;
+
+
+    }
+
+
+
+

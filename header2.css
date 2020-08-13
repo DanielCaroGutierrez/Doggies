@@ -1,0 +1,50 @@
+.encabezado{
+    background-color: rgb(250, 205, 138);
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 20px;
+    top:0;
+    left:0;
+    z-index: 100;
+    position: fixed;
+}
+
+.contenedorHeader{
+    width:90%;
+    max-width: 1500px;
+    margin:auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+.logo{
+    color:#000000;
+    font-size: 50px;
+    font-family: Montserrat;
+    font-weight: bold;
+    float:left; /*Hacemos que el objeto "flote" y no ocupe espacio*/
+    line-height:70px;
+
+}
+
+.menu{
+    line-height: 70px;
+    float: right;
+}
+
+.menu a{
+    color: #000000;
+    display:inline-block;
+    text-decoration:none;
+    font-family: Montserrat;
+    font-weight: bold;
+    padding: 20px 10px;
+    line-height: normal;
+    font-size: 20px;
+    transition: border-bottom ease 500ms;
+}
+
+.menu a:hover{
+    background-color: rgb(222,184,129);
+}
